@@ -1,0 +1,72 @@
+:root {
+  --zerogo-accent: #1f8a70;
+  --zerogo-accent-2: #2b6cb0;
+}
+
+.home-hero {
+  min-height: 46vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem 0 2rem;
+}
+
+.home-kicker {
+  margin: 0;
+  color: var(--zerogo-accent);
+  font-weight: 700;
+}
+
+.home-hero h1 {
+  margin: 0;
+  font-size: clamp(2.4rem, 7vw, 5.2rem);
+  line-height: 1.05;
+  letter-spacing: 0;
+}
+
+.home-hero p {
+  max-width: 46rem;
+  font-size: 1.1rem;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+}
+
+.home-actions a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.6rem;
+  padding: 0 .95rem;
+  border-radius: 8px;
+  background: var(--zerogo-accent);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.home-actions a + a {
+  background: var(--zerogo-accent-2);
+}
+
+@media (max-width: 768px) {
+  #recent-posts > .recent-post-item,
+  #aside-content .card-widget,
+  #page,
+  #post {
+    border-radius: 8px;
+  }
+
+  .home-hero {
+    min-height: 38vh;
+    padding-top: 2rem;
+  }
+
+  .home-actions a {
+    flex: 1 1 9rem;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,120 @@
+# Butterfly Theme Configuration
+## Docs: https://butterfly.js.org/
+
+# Navigation menu
+menu:
+  首页: / || fas fa-home
+  博客: /blog/ || fas fa-archive
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+  项目: /projects/ || fas fa-code
+  关于: /about/ || fas fa-user
+
+# Site UI
+avatar:
+  img: /img/avatar.svg
+  effect: false
+
+favicon: /img/favicon.svg
+disable_top_img: false
+index_img: /img/banner.svg
+default_top_img: /img/banner.svg
+archive_img: /img/banner.svg
+tag_img: /img/banner.svg
+category_img: /img/banner.svg
+
+# Footer
+footer:
+  owner:
+    enable: true
+    since: 2026
+  custom_text: 'Powered by Hexo & Butterfly'
+  copyright: true
+
+# Home and article
+index_post_content:
+  method: 3
+  length: 320
+excerpt_link: 阅读全文
+post_meta:
+  page:
+    date_type: created
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+  post:
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+
+# Code blocks
+highlight_theme: mac
+highlight_copy: true
+highlight_lang: true
+highlight_shrink: false
+highlight_height_limit: 420
+code_word_wrap: true
+
+# Chinese localization helpers
+wordcount:
+  enable: false
+
+# Search
+local_search:
+  enable: true
+  preload: false
+  CDN:
+
+# Dark mode
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: false
+
+# Mobile / responsive polish
+rightside_scroll_percent: true
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: false
+  position: right
+  card_author:
+    enable: true
+    description: AI / Code / Projects
+    button:
+      enable: true
+      icon: fab fa-github
+      text: GitHub
+      link: https://github.com/zerogo525
+  card_announcement:
+    enable: true
+    content: 欢迎来到零启。
+  card_recent_post:
+    enable: true
+    limit: 5
+  card_categories:
+    enable: true
+  card_tags:
+    enable: true
+  card_archives:
+    enable: true
+
+# Site statistics
+busuanzi:
+  site_uv: true
+  site_pv: true
+  page_pv: true
+
+# Share and comments are disabled by default for a clean personal site.
+comments:
+  use:
+
+# Assets injection
+inject:
+  head:
+    - <link rel="stylesheet" href="/zerogo.github.io/css/custom.css">
+  bottom:
