@@ -5,4 +5,12 @@ comments: false
 aside: false
 top_img: false
 ---
-<section class="sci-home"><div class="sci-grid" aria-hidden="true"></div><div class="sci-orbit sci-orbit-one" aria-hidden="true"></div><div class="sci-orbit sci-orbit-two" aria-hidden="true"></div><div class="sci-hero"><div class="sci-copy"><p class="sci-kicker">ZEROGO SYSTEM ONLINE</p><h1>零启</h1><p class="sci-lead">探索 AI、代码与未来项目的个人星际档案库。</p><div class="sci-actions"><a class="sci-primary" href="/zerogo.github.io/blog/">进入日志</a><a class="sci-secondary" href="/zerogo.github.io/projects/">查看项目</a></div></div><div class="sci-panel" aria-label="站点状态"><div class="sci-panel-top"><span></span><span></span><span></span></div><div class="sci-core"><div class="sci-core-ring"></div><div class="sci-core-pulse"></div><strong>AI CORE</strong></div><div class="sci-metrics"><div><span>MODE</span><strong>BUILD</strong></div><div><span>FOCUS</span><strong>AI</strong></div><div><span>STACK</span><strong>HEXO</strong></div></div></div></div><div class="sci-cards"><a href="/zerogo.github.io/categories/AI/"><span>01</span><strong>AI 实验室</strong><em>模型、工具链与自动化工作流</em></a><a href="/zerogo.github.io/projects/"><span>02</span><strong>项目舱</strong><em>个人作品、工程记录与复盘</em></a><a href="/zerogo.github.io/tags/"><span>03</span><strong>知识星图</strong><em>标签、分类与长期学习轨迹</em></a></div></section>
+<section class="dev-home"><div class="dev-hero"><div class="dev-copy"><p class="dev-kicker">zerogo / AI learning notes</p><h1>零启</h1><p class="dev-lead">一个程序员的 AI 自学博客。记录模型应用、工程实践、项目复盘，以及从零开始把 AI 用进真实工作的过程。</p><div class="dev-actions"><a class="dev-primary" href="/zerogo.github.io/blog/">阅读文章</a><a href="/zerogo.github.io/categories/AI/">AI 分类</a><a href="/zerogo.github.io/projects/">项目实践</a></div></div><div class="dev-editor" aria-label="学习路线"><div class="dev-editor-bar"><span></span><span></span><span></span><strong>learning-roadmap.md</strong></div><pre><code><span class="muted"># 2026 AI 自学路线</span>
+const roadmap = [
+  '理解 LLM 基础概念',
+  '练习 Prompt 与工作流',
+  '构建 AI 编程助手',
+  '沉淀项目复盘文章'
+]
+
+export default roadmap</code></pre></div></div><div class="dev-sections"><a href="/zerogo.github.io/categories/AI/"><span>01</span><strong>AI 学习日志</strong><em>从概念、工具到真实项目，记录每一步踩坑和收获。</em></a><a href="/zerogo.github.io/blog/"><span>02</span><strong>技术文章</strong><em>整理编程、Hexo、部署、效率工具和工程经验。</em></a><a href="/zerogo.github.io/projects/"><span>03</span><strong>项目实践</strong><em>把学到的 AI 能力变成可复用的小项目和工作流。</em></a></div></section>
